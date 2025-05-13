@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#decryption-text {
+    font-size: 5rem; /* Tamanho original */
+}
+
+#decryption-subtext {
+    font-size: 2rem; /* Tamanho aumentado */
+}
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    #decryption-text {
+        font-size: 3rem; /* Reduzir tamanho do texto para telas menores */
+    }
+
+    #decryption-subtext {
+        font-size: 1.5rem; /* Reduzir tamanho do texto para telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #decryption-text {
+        font-size: 2rem; /* Reduzir ainda mais o tamanho do texto para telas muito pequenas */
+    }
+
+    #decryption-subtext {
+        font-size: 1rem; /* Reduzir ainda mais o tamanho do texto para telas muito pequenas */
+    }
+}

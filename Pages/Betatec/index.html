@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em Manutenção</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #e74c3c;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #888;
+        }
+
+        .contact {
+            margin-top: 30px;
+            font-size: 16px;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            .message, .contact {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .message, .contact {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Site em Manutenção</h1>
+        <p>Estamos trabalhando para melhorar a segurança. </br>Após ataque hacker, estamos implementamos medidas rigorosas para proteger nosso sistema e seus dados.</p> 
+        <div class="message">
+            <p>Em breve, estaremos de volta! </br> </br>  Agradecemos a sua paciência.</p>
+        </div>
+        <div class="contact">
+            <p>Se precisar de ajuda, entre em contato conosco em <a href="mailto:betatec@outlook.com">betatec@outlook.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
